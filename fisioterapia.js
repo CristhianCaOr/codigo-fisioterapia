@@ -110,6 +110,45 @@ switch(what){
            
 }
 
+function movilidadarticular2(){
+
+    let miembros = prompt("¿En que miembros? \n 1:Miembros superiores \n 2: Miembros inferiores \n 3: Miembro superiores e inferiores ")  
+
+   
+ 
+switch(miembros){
+    case "1":
+        document.write(" La atención se enfoca además en la realización de técnicas de movilidad articular en miembros superiores ")
+    break;
+
+    case "2":
+        document.write(" La atención se enfoca además en técnicas de movilidad articular en miembros inferiores ")
+    break;
+
+    case "3":
+        document.write("La atención se enfoca tambien  en técnicas de movilidad articular en miembros superiores e inferiores ")
+    break;
+}
+
+let what = prompt("¿Que se hizo o que se utilizó para hacer la movilidad? \n 1: elevacion de miembros superiores \n 2: botellas caseras \n 3: peso corporal")
+
+switch(what){
+    case "1":
+        document.write("para ello se realizaron elevaciones de miembros inferiores para mejorar retorno del censo y edema. ")
+    break;
+
+    case "2":
+        document.write("con la utilización de botellas caseras. ")
+    break;
+
+    case "3":
+        document.write("con la utilización de su propio peso corporal. ")
+    break;
+}
+           
+}
+
+
 
 function flexo(){
 
@@ -142,7 +181,42 @@ let  extencion = prompt("extencion de que \n 1: rodillas \n 2: caderas \n 3: rod
     }
    
 }
+
+function flexo2(){
+
+    let  extencion = prompt("extencion de que \n 1: rodillas \n 2: caderas \n 3: rodillas y caderas \n 4: codo \n 5: hombro \n 6: codo y hombro  ")
     
+        switch(extencion){
+            case "1":
+                document.write(" La atención tambien se enfoca en desplazamientos en flexo extensión de rodillas. ")
+            break;
+    
+            case "2":
+                document.write(" La atención tambien se enfoca en desplazamientos en flexo extensión de caderas. ")
+            break;
+    
+            case "3":
+                document.write(" La atención tambien se enfoca en desplazamientos en flexo extensión de rodillas y caderas. ")
+            break;
+    
+            case "4":
+                document.write(" La atención tambien se enfoca en desplazamientos en flexo extensión de codos. ")
+            break;
+    
+            case "5":
+                document.write(" La atención tambien se enfoca en desplazamientos en flexo extensión de hombros. ")
+            break;
+    
+            case "6":
+                document.write(" La atención tambien se enfoca en desplazamientos en flexo extensión de codo y hombros. ")
+            break;
+        }
+       
+    }
+
+
+
+
 function enfoquevisita1(){
 
     let razon = prompt("¿Cuál fue el motivo de la visita?: \n 1: Revision de ejercicios dejados con anterioridad \n 2: movilidad articular \n 3: fortalecimiento de miembros \n 4: desplazamientos \n 5: felxo - extencion \n 6: abduccion y aduccion \n 7: rotaciones \n 8: técnicas de marcha \n 9: equilibrio y propiocepción \n 10: CORE \n 11: Control cabeza y cuello \n 12: tecnicas de masaje \n 13: posicion de tendon \n 14: asesoria para manejo de dolor")
@@ -151,7 +225,7 @@ function enfoquevisita1(){
 switch(razon){
 
     case "1":
-        document.write(". Se enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlas con frecuencia y la importancia de los mismos, ")
+        document.write(". Se enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlos con frecuencia y la importancia de los mismos. ")
     break;
 
     case "2":
@@ -159,11 +233,11 @@ switch(razon){
     break;
 
     case "3":
-        document.write(". Se enfoca la atención en ejercicios para el fortalecimiento de miembros superiores e inferiores, ")
+        document.write(". Se enfoca la atención en ejercicios para el fortalecimiento de miembros superiores e inferiores. ")
     break;
 
     case "4":
-        document.write(". Se enfoca la atención en desplazamientos en diferentes direcciones, ")
+        document.write(". Se enfoca la atención en desplazamientos en diferentes direcciones. ")
     break;
 
     case "5":
@@ -171,43 +245,43 @@ switch(razon){
     break;
 
     case "6":
-        document.write(". Se enfoca la atención en ejercicios de abducción y aducción, ")
+        document.write(". Se enfoca la atención en ejercicios de abducción y aducción. ")
         agregar()
     break;
 
     case "7":
-        document.write(". La atención se enfoca en rotaciones, ")
+        document.write(". La atención se enfoca en rotaciones. ")
         agregar()
     break;
 
     case "8":
-        document.write(". La atención se enfoca en técnicas de marcha, ")
+        document.write(". La atención se enfoca en técnicas de marcha. ")
         agregar()
     break;
 
     case "9":
-        document.write(". La atención se enfoca en técnicas de equilibrio y propiocepcion, ")
+        document.write(". La atención se enfoca en técnicas de equilibrio y propiocepcion. ")
         agregar()
     break;
 
     case "10":
-        document.write(". Se enfoca la atención en la realización de ejercicios CORE para fortalecimiento del tronco, miembros inferiores y para mejorar patrón de marcha del usuario, ")
+        document.write(". Se enfoca la atención en la realización de ejercicios CORE para fortalecimiento del tronco, miembros inferiores y para mejorar patrón de marcha del usuario. ")
     break;
 
     case "11":
-        document.write(". Se enfoca la atención en la realización de técnicas para control de cabeza y cuello mediante estimulaciones paravertebrales, como lo sería haciendo ejercicios de movilidad con cabeza, apuntando en diferentes direcciones sosteniendo 6 segundos, ")
+        document.write(". Se enfoca la atención en la realización de técnicas para control de cabeza y cuello mediante estimulaciones paravertebrales, como lo sería haciendo ejercicios de movilidad con cabeza, apuntando en diferentes direcciones sosteniendo 6 segundos. ")
     break;
 
     case "12":
-        document.write(". Se enfoca la atención en técnicas de masaje, ")
+        document.write(". Se enfoca la atención en técnicas de masaje. ")
     break;
 
     case "13":
-        document.write(". La atencion se enfoca en la posición del tendon para modulación del tono muscular, ")
+        document.write(". La atencion se enfoca en la posición del tendon para modulación del tono muscular. ")
     break;
 
     case "14":
-        document.write(". Se enfoca la atención y la asesoría para manejo de dolor, ")
+        document.write(". Se enfoca la atención y la asesoría para manejo de dolor. ")
     break;
 }
 } 
@@ -224,63 +298,63 @@ switch(razon){
     break;
 
     case "1":
-        document.write("tambien enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlos con frecuencia y la importancia de los mismos. ")
+        document.write(" Tambien enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlos con frecuencia y la importancia de los mismos. ")
     break;
 
     case "2":
-        movilidadarticular()
+        movilidadarticular2()
     break;
 
     case "3":
-        document.write(" tambien se enfoca la atención en ejercicios para el fortalecimiento de miembros superiores e inferiores, ")
+        document.write(" Tambien se enfoca la atención en ejercicios para el fortalecimiento de miembros superiores e inferiores. ")
     break;
 
     case "4":
-        document.write("tambien se enfoca la atención en desplazamientos en diferentes direcciones, ")
+        document.write(" Tambien se enfoca la atención en desplazamientos en diferentes direcciones. ")
     break;
 
     case "5":
-        flexo()
+        flexo2()
     break;
 
     case "6":
-        document.write(" tambien se enfoca la atención en ejercicios de abducción y aducción, ")
+        document.write(" Tambien se enfoca la atención en ejercicios de abducción y aducción. ")
         agregar()
     break;
 
     case "7":
-        document.write("tambien se enfoca la atención en rotaciones, ")
+        document.write(" Tambien se enfoca la atención en rotaciones. ")
         agregar()
     break;
 
     case "8":
-        document.write(" la atención tambien se enfoca en técnicas de marcha, ")
+        document.write(" La atención tambien se enfoca en técnicas de marcha. ")
         agregar()
     break;
 
     case "9":
-        document.write("la atención tambien se enfoca en técnicas de equilibrio y propiocepcion, ")
+        document.write(" La atención tambien se enfoca en técnicas de equilibrio y propiocepcion. ")
         agregar()
     break;
 
     case "10":
-        document.write("tambien se enfoca la atención en la realización de ejercicios CORE para fortalecimiento del tronco, miembros inferiores y para mejorar patrón de marcha del usuario, ")
+        document.write(" Tambien se enfoca la atención en la realización de ejercicios CORE para fortalecimiento del tronco, miembros inferiores y para mejorar patrón de marcha del usuario. ")
     break;
 
     case "11":
-        document.write("tambien se enfoca la atención en la realización de técnicas para control de cabeza y cuello mediante estimulaciones paravertebrales, como lo sería haciendo ejercicios de movilidad con cabeza, apuntando en diferentes direcciones sosteniendo 6 segundos, ")
+        document.write(" Tambien se enfoca la atención en la realización de técnicas para control de cabeza y cuello mediante estimulaciones paravertebrales, como lo sería haciendo ejercicios de movilidad con cabeza, apuntando en diferentes direcciones sosteniendo 6 segundos. ")
     break;
 
     case "12":
-        document.write("tambien se enfoca la atención en técnicas de masaje, ")
+        document.write(" Tambien se enfoca la atención en técnicas de masaje. ")
     break;
 
     case "13":
-        document.write("la atencion tambien se enfoca en la posición del tendon para modulación del tono muscular, ")
+        document.write(" La atencion tambien se enfoca en la posición del tendon para modulación del tono muscular. ")
     break;
 
     case "14":
-        document.write("tambien se enfoca la atención y la asesoría para manejo de dolor, ")
+        document.write(" Tambien se enfoca la atención y la asesoría para manejo de dolor. ")
     break;
 }
 } 
@@ -297,63 +371,63 @@ switch(razon){
     break;
 
     case "1":
-        document.write("tambien enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlas con frecuencia y la importancia de los mismos. ")
+        document.write(" Tambien enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlas con frecuencia y la importancia de los mismos. ")
     break;
 
     case "2":
-        movilidadarticular()
+        movilidadarticular2()
     break;
 
     case "3":
-        document.write(" tambien se enfoca la atención en ejercicios para el fortalecimiento de miembros superiores e inferiores. ")
+        document.write(" Tambien se enfoca la atención en ejercicios para el fortalecimiento de miembros superiores e inferiores. ")
     break;
 
     case "4":
-        document.write("tambien se enfoca la atención en desplazamientos en diferentes direcciones. ")
+        document.write(" Tambien se enfoca la atención en desplazamientos en diferentes direcciones. ")
     break;
 
     case "5":
-        flexo()
+        flexo2()
     break;
 
     case "6":
-        document.write(" tambien se enfoca la atención en ejercicios de abducción y aducción. ")
+        document.write(" Tambien se enfoca la atención en ejercicios de abducción y aducción. ")
         agregar()
     break;
 
     case "7":
-        document.write("tambien se enfoca la atención en rotaciones. ")
+        document.write("Tambien se enfoca la atención en rotaciones. ")
         agregar()
     break;
 
     case "8":
-        document.write(" la atención tambien se enfoca en técnicas de marcha. ")
+        document.write(" La atención tambien se enfoca en técnicas de marcha. ")
         agregar()
     break;
 
     case "9":
-        document.write("la atención tambien se enfoca en técnicas de equilibrio y propiocepcion. ")
+        document.write(" La atención tambien se enfoca en técnicas de equilibrio y propiocepcion. ")
         agregar()
     break;
 
     case "10":
-        document.write("tambien se enfoca la atención en la realización de ejercicios CORE para fortalecimiento del tronco, miembros inferiores y para mejorar patrón de marcha del usuario. ")
+        document.write(" Tambien se enfoca la atención en la realización de ejercicios CORE para fortalecimiento del tronco, miembros inferiores y para mejorar patrón de marcha del usuario. ")
     break;
 
     case "11":
-        document.write("tambien se enfoca la atención en la realización de técnicas para control de cabeza y cuello mediante estimulaciones paravertebrales, como lo sería haciendo ejercicios de movilidad con cabeza, apuntando en diferentes direcciones sosteniendo 6 segundos. ")
+        document.write(" Tambien se enfoca la atención en la realización de técnicas para control de cabeza y cuello mediante estimulaciones paravertebrales, como lo sería haciendo ejercicios de movilidad con cabeza, apuntando en diferentes direcciones sosteniendo 6 segundos. ")
     break;
 
     case "12":
-        document.write("tambien se enfoca la atención en técnicas de masaje. ")
+        document.write(" Tambien se enfoca la atención en técnicas de masaje. ")
     break;
 
     case "13":
-        document.write("la atencion tambien se enfoca en la posición del tendon para modulación del tono muscular. ")
+        document.write(" La atencion tambien se enfoca en la posición del tendon para modulación del tono muscular. ")
     break;
 
     case "14":
-        document.write("tambien se enfoca la atención y la asesoría para manejo de dolor. ")
+        document.write(" Tambien se enfoca la atención y la asesoría para manejo de dolor. ")
     break;
 }
 }
