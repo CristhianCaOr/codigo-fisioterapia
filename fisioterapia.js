@@ -220,7 +220,7 @@ function enfoquevisita2(){
 switch(razon){
 
     case "1":
-        document.write("tambien enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlas con frecuencia y la importancia de los mismos, ")
+        document.write("tambien enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlas con frecuencia y la importancia de los mismos. ")
     break;
 
     case "2":
@@ -281,169 +281,83 @@ switch(razon){
 }
 } 
 
+function enfoquevisita3(){
 
-    // function enfoquevisita2(){  
-    // let razon = null
-    // razon = prompt("motivo de la atencion: \n 1: Revision de ejercicios dejados con anterioridad \n 2: movilidad articular \n 3: fortalecimiento de miembros \n 4: desplazamientos \n 5: felxo - extencion \n 6: abduccion y aduccion \n 7: rotaciones \n 8: técnicas de marcha \n 9: equilibrio \n 10: propiocepción \n 11: CORE \n 12: control cuello y cabeza \n 13: tecnicas de masaje \n 14: posicion de tendon \n 15: asesoria para manejo de dolor")
-        
-        
-    //     switch(razon){
+    let razon = prompt("motivo de la atencion: \n 1: Revision de ejercicios dejados con anterioridad \n 2: movilidad articular \n 3: fortalecimiento de miembros \n 4: desplazamientos \n 5: felxo - extencion \n 6: abduccion y aduccion \n 7: rotaciones \n 8: técnicas de marcha \n 9: equilibrio y propiocepción \n 10: CORE \n 11: Control cabeza y cuello \n 12: tecnicas de masaje \n 13: posicion de tendon \n 14: asesoria para manejo de dolor")
+    
+    
+switch(razon){
 
-    //     case "1":
-    //         document.write(", tambien se enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlas con frecuencia y la importancia de los mismos, ")
-    //     break;
+    case "1":
+        document.write("tambien enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlas con frecuencia y la importancia de los mismos. ")
+    break;
 
-    //     case "2":
-    //         movilidadarticular()
-    //     break;
+    case "2":
+        movilidadarticular()
+    break;
 
-    //     case "3":
-    //         document.write("tambien se enfoca la atención en fortalecimiento de miembros superiores e inferiores, ")
-    //     break;
+    case "3":
+        document.write(" tambien se enfoca la atención en ejercicios para el fortalecimiento de miembros superiores e inferiores. ")
+    break;
 
-    //     case "4":
-    //         document.write("tambien se enfoca la atención en desplazamientos en diferentes direcciones, ")
-    //     break;
+    case "4":
+        document.write("tambien se enfoca la atención en desplazamientos en diferentes direcciones. ")
+    break;
 
-    //     case "5":
-    //         flexo()
-    //     break;
+    case "5":
+        flexo()
+    break;
 
-    //     case "6":
-    //         document.write("tambien la atención se enfoca en abducción y aducción, ")
-    //         agregar()
-    //     break;
+    case "6":
+        document.write(" tambien se enfoca la atención en ejercicios de abducción y aducción. ")
+        agregar()
+    break;
 
-    //     case "7":
-    //         document.write("tambien la atención se enfoca en rotaciones, ")
-    //         agregar()
-    //     break;
+    case "7":
+        document.write("tambien se enfoca la atención en rotaciones. ")
+        agregar()
+    break;
 
-    //     case "8":
-    //         document.write("tambien la atención se enfoca en técnicas de marcha, ")
-    //         agregar()
-    //     break;
+    case "8":
+        document.write(" la atención tambien se enfoca en técnicas de marcha. ")
+        agregar()
+    break;
 
-    //     case "9":
-    //         document.write("tambien la atención se enfoca en técnicas de equilibrio, ")
-    //         agregar()
-    //     break;
+    case "9":
+        document.write("la atención tambien se enfoca en técnicas de equilibrio y propiocepcion. ")
+        agregar()
+    break;
 
-    //     case "10":
-    //         document.write("la atención se enfoca tambien en la propiocepción, ")
-    //         agregar()
-    //     break;
+    case "10":
+        document.write("tambien se enfoca la atención en la realización de ejercicios CORE para fortalecimiento del tronco, miembros inferiores y para mejorar patrón de marcha del usuario. ")
+    break;
 
-    //     case "11":
-    //         document.write("tambien se enfoca en en la realización de ejercicios core para fortalecimiento de tronco miembros inferiores y mejorar patrón de marcha, ")
-    //     break;
+    case "11":
+        document.write("tambien se enfoca la atención en la realización de técnicas para control de cabeza y cuello mediante estimulaciones paravertebrales, como lo sería haciendo ejercicios de movilidad con cabeza, apuntando en diferentes direcciones sosteniendo 6 segundos. ")
+    break;
 
-    //     case "12":
-    //         document.write("tambien en realización de técnicas para control de cabeza y cuello mediante estimulación paravertebrales, movilidad de cabeza en diferentes direcciones sosteniendo 6 segundos para controlar cabeza, ")
-    //     break;
+    case "12":
+        document.write("tambien se enfoca la atención en técnicas de masaje. ")
+    break;
 
-    //     case "13":
-    //         document.write("tambien se enfoca la atención en técnicas de masaje")
-    //     break;
+    case "13":
+        document.write("la atencion tambien se enfoca en la posición del tendon para modulación del tono muscular. ")
+    break;
 
-    //     case "14":
-    //         document.write("tambien en la posición del tendon, para modulación del tono muscular")
-
-    //     break;
-
-    //     case "15":
-    //         document.write(" tanmbien en la asesoría para manejo de dolor")
-    //     break;
-    // }
-
-
-        
-
-    // } 
-
-    // function enfoquevisita3(){
-    //     let razon = null
-    //     razon = prompt("motivo de la atencion: \n 1: Revision de ejercicios dejados con anterioridad \n 2: movilidad articular \n 3: fortalecimiento de miembros \n 4: desplazamientos \n 5: felxo - extencion \n 6: abduccion y aduccion \n 7: rotaciones \n 8: técnicas de marcha \n 9: equilibrio \n 10: propiocepción \n 11: CORE \n 12: control cuello y cabeza \n 13: tecnicas de masaje \n 14: posicion de tendon \n 15: asesoria para manejo de dolor")
-            
-            
-    //         switch(razon){
-        
-    //         case "1":
-    //             document.write(" y en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlas con frecuencia y la importancia de los mismos, ")
-    //         break;
-        
-    //         case "2":
-    //             movilidadarticular()
-    //         break;
-        
-    //         case "3":
-    //             document.write("y en fortalecimiento de miembros superiores e inferiores, ")
-    //         break;
-        
-    //         case "4":
-    //             document.write("y en desplazamientos en diferentes direcciones, ")
-    //         break;
-        
-    //         case "5":
-    //             flexo()
-    //         break;
-        
-    //         case "6":
-    //             document.write("y en abducción y aducción, ")
-    //             agregar()
-    //         break;
-        
-    //         case "7":
-    //             document.write("y en rotaciones, ")
-    //             agregar()
-    //         break;
-        
-    //         case "8":
-    //             document.write("y en técnicas de marcha, ")
-    //             agregar()
-    //         break;
-        
-    //         case "9":
-    //             document.write("y en técnicas de equilibrio, ")
-    //             agregar()
-    //         break;
-        
-    //         case "10":
-    //             document.write("y en la propiocepción, ")
-    //             agregar()
-    //         break;
-        
-    //         case "11":
-    //             document.write("y en la realización de ejercicios core para fortalecimiento de tronco miembros inferiores y mejorar patrón de marcha, ")
-    //         break;
-        
-    //         case "12":
-    //             document.write("y en la realización de técnicas para control de cabeza y cuello mediante estimulación paravertebrales, movilidad de cabeza en diferentes direcciones sosteniendo 6 segundos para controlar cabeza, ")
-    //         break;
-        
-    //         case "13":
-    //             document.write("y en técnicas de masaje")
-    //         break;
-        
-    //         case "14":
-    //             document.write("y en la posición del tendon, para modulación del tono muscular")
-    //         break;
-        
-    //         case "15":
-    //             document.write("y la asesoría para manejo de dolor")
-    //         break;
-    //     }
-        
-    // }
+    case "14":
+        document.write("tambien se enfoca la atención y la asesoría para manejo de dolor. ")
+    break;
+}
+}
 
 
 function referencias(){
-let  references = null
-references = prompt("¿Dejaste indicaciones? \n 1: si  \n 2: no ")
+    let  references = prompt("¿Dejaste indicaciones en el cuaderno planeador? \n 1: si  \n 2: no ")
+
 
 switch(references){
     case "1":
-        document.write(" se dejan las indicaciones y se recuerdan los compromisos y dinámicas del programa, se deja el usuario en estables condiciones y se informa la fecha de la próxima atención ")
+        document.write("Se dejan las indicaciones en el cuaderno planeador y se recuerdan los compromisos y dinámicas del programa. Se deja el usuario en estables condiciones y se informa la fecha de la próxima atención ")
     break;
 
     case "2":
@@ -453,13 +367,12 @@ switch(references){
 }
     
 function fecha(){
-        let  cita = null
-        cita = prompt("Escribe la fecha de la proxima visita")
-        document.write(cita + " ")
+        let  cita = prompt("Escribe la fecha de la proxima visita")
+        document.write(cita)
 }
     
 function cierrepresencial(){
-        document.write("se deja a usuario en estables condiciones de salud general.")
+        document.write(" se deja a usuario en estables condiciones de salud general.")
 }
     // Codigo a ejecutar
 
@@ -467,7 +380,6 @@ function cierrepresencial(){
     cuidador()
     condicionesusuario()
     enfoquevisita1()
-    enfoquevisita2()
     enfoquevisita2()
     enfoquevisita3()
     referencias()
