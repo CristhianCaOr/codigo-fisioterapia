@@ -480,7 +480,7 @@ function agregar(){
     
 function atenciontelefonica(){
  
-            document.write("<br><br>se realiza seguimiento telefónico con el objetivo de hacer seguimiento desde el área y reencuadre frente al inicio de las atenciones, se establece comunicación con acudiente del usuario, ")
+            document.write("<br><br>Se realiza seguimiento telefónico con el objetivo de hacer seguimiento desde el área y reencuadre frente al inicio de las atenciones, se establece comunicación con acudiente del usuario, ")
         
     }
 
@@ -541,7 +541,7 @@ switch(razon){
     break;
 
     case"4":
-        document.write(". Se enfoca la llamada en la indagación de ejercicios los dejados con anterioridad. Se le recuerda la importancia de ejecutarlos con frecuencia y la importancia de los mismos para evitar lesiones y dolores articulares")
+        document.write(". Se enfoca la llamada en la indagación de los ejercicios dejados con anterioridad. Se le recuerda la importancia de ejecutarlos con frecuencia y la importancia de los mismos para evitar lesiones y dolores articulares")
     break;
     }
 }     
@@ -557,27 +557,27 @@ function ejercicios(){
     
             switch(cual){
                 case "1":
-                    document.write(". Se dejan ejercicios de movilidad articular")
+                    document.write(". Se dejan ejercicios de movilidad articular. ")
                 break;
     
                 case "2":
-                    document.write(". Se dejan ejercicios para miembros superiores")
+                    document.write(". Se dejan ejercicios para miembros superiores. ")
                 break;
     
                 case "3":
-                    ducument.write(". Se dejan ejercicios para miembros inferiores")
+                    ducument.write(". Se dejan ejercicios para miembros inferiores. ")
                 break;
     
                 case "4":
-                    document.write(". Se dejan ejercicios para movilidad articular en miembros superiores")
+                    document.write(". Se dejan ejercicios de movilidad articular en miembros superiores. ")
                 break;
     
                 case "5":
-                    document.write(". Se dejan ejercicios para movilidad articular en miembros inferiores")
+                    document.write(". Se dejan ejercicios de movilidad articular en miembros inferiores. ")
                 break;
     
                 case "6":
-                    document.write(". Se dejan ejercicios para movilidad articular en miembros superiores e inferiores")
+                    document.write(". Se dejan ejercicios de movilidad articular en miembros superiores e inferiores. ")
                 break;
             }
     
@@ -603,19 +603,19 @@ function ejercicios(){
             switch(tipodetecnica){
                 
                 case "1":
-                    document.write(" indica que se han aplicado las tecnicas con enfoque en movilidad articular, ")
+                    document.write(" Cuidador indica que se han aplicado las tecnicas con enfoque en movilidad articular, ")
                 break;
         
                 case "2":
-                    document.write(" indica que se han aplicado las tecnicas con enfoque en cambios de posición, ")
+                    document.write(" Cuidador indica que se han aplicado las tecnicas con enfoque en cambios de posición, ")
                 break;
         
                 case "3":
-                    document.write(" indica que han aplicado tecnicas con enfoque en movilidad articular y cambios de posición, ")
+                    document.write(" Cuidador indica que se han aplicado tecnicas con enfoque en movilidad articular y cambios de posición, ")
                 break;
         
                 case "4":
-                document.write(" indica que han aplicado tecnicas para reducir espasticidad")
+                document.write(" Cuidador indica que han aplicado tecnicas y ejercicios para reducir espasticidad")
                 break;
             
             }
@@ -624,7 +624,7 @@ function ejercicios(){
         
         
             case "2":
-                document.write(" indica que el usuario no ha practicado tecnicas de ningún tipo")
+                document.write(" Cuidador indica que el usuario no ha practicado tecnicas de ningún tipo")
             break;
         
         }
@@ -639,7 +639,7 @@ function indicaciones() {
 switch(indications){
     
     case "1":
-        document.write(". Se dejan las indicaciones y se recuerdan los compromisos y dinámicas del programa, se deja el usuario en estables condiciones y se informa la fecha de la próxima atención")
+        document.write(". Se dejan las indicaciones y se recuerdan los compromisos y dinámicas del programa, se deja el usuario en estables condiciones y se informa la fecha de la próxima atención ")
     break;
 
     case "2":
