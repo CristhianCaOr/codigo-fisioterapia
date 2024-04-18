@@ -48,7 +48,7 @@ miembros = prompt("en que miembros \n 1:Miembros superiores \n 2: Miembros infer
  
 switch(miembros){
     case "1":
-        document.write("se enfoca la atención en técnicas de movilidad articular en miembros superiores, ")
+        document.write("se enfoca la atención en la realización de técnicas de movilidad articular en miembros superiores, ")
     break;
 
     case "2":
