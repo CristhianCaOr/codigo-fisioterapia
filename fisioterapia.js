@@ -58,7 +58,7 @@ function condicionesusuario(){
             
         case "1":
         
-            document.write(" refiriendo que se encuentran en estables condiciones de salud general. ")
+            document.write(" refiriendo que se encuentran en estables condiciones de salud general")
         
         break;
 
@@ -92,7 +92,7 @@ switch(miembros){
     break;
 }
 
-let what = prompt("¿que se hizo o que se utilizó para hacer la movilidad? \n 1: elevacion de miembros superiores \n 2: botellas caseras \n 3: peso corporal")
+let what = prompt("¿Que se hizo o que se utilizó para hacer la movilidad? \n 1: elevacion de miembros superiores \n 2: botellas caseras \n 3: peso corporal")
 
 switch(what){
     case "1":
@@ -151,7 +151,7 @@ function enfoquevisita1(){
 switch(razon){
 
     case "1":
-        document.write("Se enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlas con frecuencia y la importancia de los mismos, ")
+        document.write(". Se enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlas con frecuencia y la importancia de los mismos, ")
     break;
 
     case "2":
@@ -159,11 +159,11 @@ switch(razon){
     break;
 
     case "3":
-        document.write("Se enfoca la atención en ejercicios para el fortalecimiento de miembros superiores e inferiores, ")
+        document.write(". Se enfoca la atención en ejercicios para el fortalecimiento de miembros superiores e inferiores, ")
     break;
 
     case "4":
-        document.write("Se enfoca la atención en desplazamientos en diferentes direcciones, ")
+        document.write(". Se enfoca la atención en desplazamientos en diferentes direcciones, ")
     break;
 
     case "5":
@@ -171,43 +171,43 @@ switch(razon){
     break;
 
     case "6":
-        document.write("Se enfoca la atención en ejercicios de abducción y aducción, ")
+        document.write(". Se enfoca la atención en ejercicios de abducción y aducción, ")
         agregar()
     break;
 
     case "7":
-        document.write("La atención se enfoca en rotaciones, ")
+        document.write(". La atención se enfoca en rotaciones, ")
         agregar()
     break;
 
     case "8":
-        document.write("La atención se enfoca en técnicas de marcha, ")
+        document.write(". La atención se enfoca en técnicas de marcha, ")
         agregar()
     break;
 
     case "9":
-        document.write("La atención se enfoca en técnicas de equilibrio y propiocepcion, ")
+        document.write(". La atención se enfoca en técnicas de equilibrio y propiocepcion, ")
         agregar()
     break;
 
     case "10":
-        document.write("Se enfoca la atención en la realización de ejercicios CORE para fortalecimiento del tronco, miembros inferiores y para mejorar patrón de marcha del usuario, ")
+        document.write(". Se enfoca la atención en la realización de ejercicios CORE para fortalecimiento del tronco, miembros inferiores y para mejorar patrón de marcha del usuario, ")
     break;
 
     case "11":
-        document.write("Se enfoca la atención en la realización de técnicas para control de cabeza y cuello mediante estimulaciones paravertebrales, como lo sería haciendo ejercicios de movilidad con cabeza, apuntando en diferentes direcciones sosteniendo 6 segundos, ")
+        document.write(". Se enfoca la atención en la realización de técnicas para control de cabeza y cuello mediante estimulaciones paravertebrales, como lo sería haciendo ejercicios de movilidad con cabeza, apuntando en diferentes direcciones sosteniendo 6 segundos, ")
     break;
 
     case "12":
-        document.write("Se enfoca la atención en técnicas de masaje, ")
+        document.write(". Se enfoca la atención en técnicas de masaje, ")
     break;
 
     case "13":
-        document.write("La atencion se enfoca en la posición del tendon para modulación del tono muscular, ")
+        document.write(". La atencion se enfoca en la posición del tendon para modulación del tono muscular, ")
     break;
 
     case "14":
-        document.write("Se enfoca la atención y la asesoría para manejo de dolor, ")
+        document.write(". Se enfoca la atención y la asesoría para manejo de dolor, ")
     break;
 }
 } 
@@ -224,7 +224,7 @@ switch(razon){
     break;
 
     case "1":
-        document.write("tambien enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlas con frecuencia y la importancia de los mismos. ")
+        document.write("tambien enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlos con frecuencia y la importancia de los mismos. ")
     break;
 
     case "2":
@@ -365,7 +365,7 @@ function referencias(){
 
 switch(references){
     case "1":
-        document.write("Se dejan las indicaciones en el cuaderno planeador y se recuerdan los compromisos y dinámicas del programa. Se deja el usuario en estables condiciones y se informa la fecha de la próxima atención ")
+        document.write("Se dejan las indicaciones en el cuaderno planeador y se recuerdan los compromisos y dinámicas del programa. Se deja el usuario en estables condiciones  y se informa fecha de la próxima atención ")
     break;
 
     case "2":
@@ -504,7 +504,7 @@ tecnics = prompt("¿El usuario practico tecnicas? \n 1: si  \n 2: no ")
 
 switch(tecnics){
     case "1":
-        tipodetecnica = prompt("que tecnicas ha practicado el usuario \n 1: movilidad articular \n 2: tecnicas de cambios de posición \n 3: ambas \n 4: reducir espasticidad" )
+        tipodetecnica = prompt("¿Que tecnicas ha practicado el usuario? \n 1: movilidad articular \n 2: tecnicas de cambios de posición \n 3: ambas \n 4: reducir espasticidad" )
 
     switch(tipodetecnica){
         
