@@ -80,15 +80,15 @@ function movilidadarticular(){
  
 switch(miembros){
     case "1":
-        document.write("Se enfoca la atención en la realización de técnicas de movilidad articular en miembros superiores, ")
+        document.write("Se enfoca la atención en la realización de técnicas de movilidad articular en miembros superiores ")
     break;
 
     case "2":
-        document.write("Se enfoca la atención en técnicas de movilidad articular en miembros inferiores, ")
+        document.write("Se enfoca la atención en técnicas de movilidad articular en miembros inferiores ")
     break;
 
     case "3":
-        document.write("Se enfoca la atención en técnicas de movilidad articular en miembros superiores e inferiores, ")
+        document.write("Se enfoca la atención en técnicas de movilidad articular en miembros superiores e inferiores ")
     break;
 }
 
@@ -96,7 +96,7 @@ let what = prompt("¿Que se hizo o que se utilizó para hacer la movilidad? \n 1
 
 switch(what){
     case "1":
-        document.write("se realizan elevaciones de miembros inferiores para mejorar retorno censo y edema. ")
+        document.write("para ello se realizaron elevaciones de miembros inferiores para mejorar retorno del censo y edema. ")
     break;
 
     case "2":
@@ -117,27 +117,27 @@ let  extencion = prompt("extencion de que \n 1: rodillas \n 2: caderas \n 3: rod
 
     switch(extencion){
         case "1":
-            document.write("Se enfoca la atención en desplazamientos en flexo extensión de rodillas, ")
+            document.write(". Se enfoca la atención en desplazamientos en flexo extensión de rodillas, ")
         break;
 
         case "2":
-            document.write("Se enfoca la atención en desplazamientos en flexo extensión de caderas, ")
+            document.write(". Se enfoca la atención en desplazamientos en flexo extensión de caderas, ")
         break;
 
         case "3":
-            document.write("Se enfoca la atención en desplazamientos en flexo extensión de rodillas y caderas, ")
+            document.write(". Se enfoca la atención en desplazamientos en flexo extensión de rodillas y caderas, ")
         break;
 
         case "4":
-            document.write("Se enfoca la atención en desplazamientos en flexo extensión de codos, ")
+            document.write(". Se enfoca la atención en desplazamientos en flexo extensión de codos, ")
         break;
 
         case "5":
-            document.write("se enfoca la atención en desplazamientos en flexo extensión de hombros, ")
+            document.write(". se enfoca la atención en desplazamientos en flexo extensión de hombros, ")
         break;
 
         case "6":
-            document.write("Se enfoca la atención en desplazamientos en flexo extensión de codo y hombros, ")
+            document.write(". Se enfoca la atención en desplazamientos en flexo extensión de codo y hombros, ")
         break;
     }
    
