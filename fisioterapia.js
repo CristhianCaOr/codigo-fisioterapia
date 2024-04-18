@@ -17,8 +17,30 @@ function agregar(){
 }
 
 function presencialmente(){
-        document.write("<br><br>Se realiza visita desde el área con el objetivo de hacer seguimiento y la atención, se llega a la vivienda de la usuaria donde, ")
+        document.write("<br><br> Se realiza visita desde el área con el objetivo de hacer seguimiento y la atención, se llega a la vivienda en donde ")
 } 
+
+
+function cuidador(){
+    let parentesco = prompt("¿Cuál es el parentesco del cuidador?");
+        
+        if (parentesco == "padre" || parentesco == "hermano" || parentesco == "abuelo" || parentesco == "primo" || parentesco == "vecino") {
+            document.write(" atiende la visita su " + parentesco + " cuidador, ")
+        } 
+        
+        else if (parentesco == "madre" || parentesco == "abuela" || parentesco == "hermana" || parentesco == "prima" || parentesco == "vecina") {
+            document.write(" atiende la visita su " + parentesco + " cuidadora, ")
+        } 
+        
+        else if(parentesco == "usuaria" || parentesco == "cuidadora"){
+            document.write("atiende la " + parentesco +", ")
+        } 
+        
+        else if(parentesco == "usuario" || parentesco == "cuidador"){
+            document.write("atiende el " + parentesco +", ")
+        }
+}
+
 
 
 function condicionesusuario(){
@@ -29,7 +51,7 @@ function condicionesusuario(){
     switch(estado){
             
         case "1":
-                document.write(" se encuentra en estables condiciones de salud general ")
+                document.write(" refiriendo que se encuentra en estables condiciones de salud general ")
             break;
 
             case "2":
@@ -374,6 +396,7 @@ function cierrepresencial(){
     // Codigo a ejecutar
 
     presencialmente()
+    cuidador()
     condicionesusuario()
     enfoquevisita1()
     enfoquevisita2()
