@@ -473,45 +473,40 @@ function atencionvirtual(){
 
     
 function agregar(){
-        let  pork = null
-        pork = prompt("¿Deseas agregar algo mas? sino, dale aceptar")
-        document.write(pork)
-}
+
+    let  pork = prompt("¿Deseas agregar algo mas? sino, dale aceptar")
+    document.write(pork)
+    }
     
 function atenciontelefonica(){
-let eleccion = null     
-eleccion = prompt("¿Qué tipo de atencion fue? \n 1: para virtual")
-        
-    switch(eleccion){
-        case "1":
+ 
             document.write("<br><br>se realiza seguimiento telefónico con el objetivo de hacer seguimiento desde el área y reencuadre frente al inicio de las atenciones, se establece comunicación con acudiente del usuario, ")
-        break;
+        
     }
-} 
+
 
 
 function estadousuario(){
-let estado =null
-let razon = null   
-estado = prompt("¿como estaba el usuario? \n 1: Bien \n 2: mal") 
+let estado = prompt("¿como estaba el usuario? \n 1: Bien \n 2: mal")
+  
 
 switch(estado){
  
     case "1":
-        document.write(" quien indica que el usuario se ha encontrado en estables condiciones de salud general ")
+        document.write(" quien indica que el usuario se ha encontrado en estables condiciones de salud general")
     break;
 
     case "2":
-        razon = prompt("¿Por que? \n 1: problemas economicos \n 2: hospitalizacion \n 3: otro" )
+        let razon = prompt("¿Por que? \n 1: problemas economicos \n 2: hospitalizacion \n 3: otro")
     
     switch(razon){
 
         case "1":
-            document.write("quien refiere que se ha presentado dificultad para conseguir los alimentos y la situación económica es compleja")
+            document.write(" quien refiere que se ha presentado dificultad para conseguir los alimentos y la situación económica es compleja")
         break;
 
         case "2":
-            document.write("quien refiere que el usuario esta hospitalizado ")
+            document.write(" quien refiere que el usuario esta hospitalizado")
         break;
         
         case "3":
@@ -524,41 +519,127 @@ switch(estado){
 
 
 function enfoquellamada(){
-let razon = null
-razon = prompt("motivo de la atencion: \n 0: ninguna\n 1: indicaciones de las dinamicas del proyecto \n 2: continuacion de atenciones \n 3: condiciones de salud del usuario \n 4: Revision de ejercicios dejados con anterioridad")
+    
+    let razon = prompt("motivo de la atencion: \n 1: indicaciones de las dinamicas del proyecto \n 2: continuacion de atenciones \n 3: condiciones de salud del usuario \n 4: Revision de ejercicios dejados con anterioridad")
+
 
 switch(razon){
-    case"0":
-        ocument.write(" ")
-    break;
+    // case"0":
+    //     ocument.write(" ")
+    // break;
 
     case"1":
-        document.write("la atención se enfoca en las indicaciones frente a las dinámicas del proyecto, la continuidad de las atenciones y la importancia de cumplir con los compromisos")
+        document.write(". La llamada se enfoca en brindar indicaciones frente a las dinámicas del proyecto, sobre la continuidad de las atenciones y la importancia de cumplir con los compromisos propuestos")
     break;
 
     case"2":
-        document.write("la atención se enfoca en la indicación de la continuidad de las atenciones") 
+        document.write(". La llamada se enfoca en informar sobre la continuidad de las atenciones") 
     break;
 
     case"3":
-        document.write("se enfoca la atención en la revisión de las condiciones de salud de la usuaria y en el cuidado")
+        document.write(". Se enfoca la atención en la revisión de las condiciones de salud del usuario y como está siendo su cuidado")
     break;
 
     case"4":
-        document.write("se enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlas con frecuencia y la importancia de las mismas para evitar lesiones y dolores articulares")
+        document.write(". Se enfoca la llamada en la indagación de ejercicios los dejados con anterioridad. Se le recuerda la importancia de ejecutarlos con frecuencia y la importancia de los mismos para evitar lesiones y dolores articulares")
     break;
     }
 }     
 
 
+function ejercicios(){
+    let practicas = prompt("¿Le han dejado ejercicios al usuario? \n 1: si \n 2: no")
+    
+    
+    switch(practicas){
+        case "1":
+            let cual = prompt("¿Cuales? \n 1: movilidad articular \n 2: ejercicios en miembros superiores \n 3: ejercicios en miembros inferiores \n 4:movilidad articular en miembros superiores \n 5:movilidad articular en miembros inferiores \n 6: movilidad articular en miembros superiores e inferiores")
+    
+            switch(cual){
+                case "1":
+                    document.write(". Se dejan ejercicios de movilidad articular")
+                break;
+    
+                case "2":
+                    document.write(". Se dejan ejercicios para miembros superiores")
+                break;
+    
+                case "3":
+                    ducument.write(". Se dejan ejercicios para miembros inferiores")
+                break;
+    
+                case "4":
+                    document.write(". Se dejan ejercicios para movilidad articular en miembros superiores")
+                break;
+    
+                case "5":
+                    document.write(". Se dejan ejercicios para movilidad articular en miembros inferiores")
+                break;
+    
+                case "6":
+                    document.write(". Se dejan ejercicios para movilidad articular en miembros superiores e inferiores")
+                break;
+            }
+    
+            case "2":
+                document.write(" ")
+            break;
+    
+        }
+    }
+
+
+    function tecnicas(){
+
+        let tecnics = prompt("¿El usuario practico tecnicas? \n 1: si  \n 2: no ")
+        
+        
+        
+        switch(tecnics){
+            case "1":
+                
+                let tipodetecnica = prompt("¿Que tecnicas ha practicado el usuario? \n 1: movilidad articular \n 2: tecnicas de cambios de posición \n 3: ambas \n 4: reducir espasticidad" )
+        
+            switch(tipodetecnica){
+                
+                case "1":
+                    document.write(" indica que se han aplicado las tecnicas con enfoque en movilidad articular, ")
+                break;
+        
+                case "2":
+                    document.write(" indica que se han aplicado las tecnicas con enfoque en cambios de posición, ")
+                break;
+        
+                case "3":
+                    document.write(" indica que han aplicado tecnicas con enfoque en movilidad articular y cambios de posición, ")
+                break;
+        
+                case "4":
+                document.write(" indica que han aplicado tecnicas para reducir espasticidad")
+                break;
+            
+            }
+        
+            break;
+        
+        
+            case "2":
+                document.write(" indica que el usuario no ha practicado tecnicas de ningún tipo")
+            break;
+        
+        }
+        }
+
+
+
 function indicaciones() {
-let indications = null
-indications = prompt("¿Dejaste indicaciones? \n 1: si  \n 2: no ")
+    
+    let indications = prompt("¿Dejaste indicaciones? \n 1: si  \n 2: no ")
         
 switch(indications){
     
     case "1":
-        document.write(" se dejan las indicaciones y se recuerdan los compromisos y dinámicas del programa, se deja el usuario en estables condiciones y se informa la fecha de la próxima atención ")
+        document.write(". Se dejan las indicaciones y se recuerdan los compromisos y dinámicas del programa, se deja el usuario en estables condiciones y se informa la fecha de la próxima atención")
     break;
 
     case "2":
@@ -569,111 +650,33 @@ switch(indications){
 }
 
 
-function tecnicas(){
 
-let tecnics = null
-let tipodetecnica = null
-tecnics = prompt("¿El usuario practico tecnicas? \n 1: si  \n 2: no ")
-
-
-switch(tecnics){
-    case "1":
-        tipodetecnica = prompt("¿Que tecnicas ha practicado el usuario? \n 1: movilidad articular \n 2: tecnicas de cambios de posición \n 3: ambas \n 4: reducir espasticidad" )
-
-    switch(tipodetecnica){
-        
-        case "1":
-            document.write(" indica que se han aplicado las tecnicas con enfoque en movilidad articular, ")
-        break;
-
-        case "2":
-            document.write(" indica que se han aplicado las tecnicas con enfoque en cambios de posición, ")
-        break;
-
-        case "3":
-            document.write(" indica que han aplicado tecnicas con enfoque en movilidad articular y cambios de posición, ")
-        break;
-
-        case "4":
-        document.write(" indica que han aplicado tecnicas para reducir espasticidad")
-        break;
-    
-    }
-
-    break;
-
-
-    case "2":
-        document.write(" ")
-    break;
-
-}
-}
 
 
 function fecha(){
-        let  cita = null
-        cita = prompt("Escribe la fecha de la proxima visita, ")
+
+        let  cita = prompt("Escribe la fecha de la proxima visita")
         document.write(cita)
-}
-
-function cierrevirtual(){
-        document.write(", se lleva a cabo la atención virtual de activación bajo consentimiento de quien la recibe dado que el servicio de transporte para facilitar las atenciones presenciales inician en los primeros días de junio por lo anterior se deja constancia de estas sin firma del usuario y/o persona cuidando. ")
-}
-
-function ejercicios(){
-let practicas = null
-let cual = null
-practicas = prompt("¿Le han dejado ejercicios al usuario? \n 1: si \n 2: no")
-
-switch(practicas){
-    case "1":
-        cual = prompt("¿Cuales? \n 1: movilidad articular \n 2: ejercicios en miembros superiores \n 3: ejercicios en miembros inferiores \n 4:movilidad articular en miembros superiores \n 5:movilidad articular en miembros inferiores \n 6: movilidad articular en miembros superiores e inferiores")
-
-        switch(cual){
-            case "1":
-                document.write("se dejan ejercicios de movilidad articular")
-            break;
-
-            case "2":
-                document.write("se dejan ejercicios para miembros superiores")
-            break;
-
-            case "3":
-                ducument.write("se dejan ejercicios para miembros inferiores")
-            break;
-
-            case "4":
-                document.write("se dejan ejercicios para movilidad articular en miembros superiores")
-            break;
-
-            case "5":
-                document.write("se dejan ejercicios para movilidad articular en miembros inferiores")
-            break;
-
-            case "6":
-                document.write("se dejan ejercicios para movilidad articular en miembros superiores e inferiores")
-            break;
-        }
-
-        case "2":
-            document.write(" ")
-        break;
 
     }
+
+function cierrevirtual(){
+        document.write(". Se lleva a cabo la atención virtual de activación bajo consentimiento de quien la recibe dado que el servicio de transporte para facilitar las atenciones presenciales inician en los primeros días de junio por lo anterior se deja constancia de estas sin firma del usuario y/o persona cuidando. ")
 }
+
+
 
 
 // Codigo a ejecitar
     atenciontelefonica()
     estadousuario()
-    agregar()
+    // agregar()
     enfoquellamada()
-    agregar()
+    // agregar()
     ejercicios()
     tecnicas()
     indicaciones()
-    agregar()
+    // agregar()
     fecha()
     cierrevirtual()
     
