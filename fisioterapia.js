@@ -487,7 +487,7 @@ function atenciontelefonica(){
 
 
 function estadousuario(){
-let estado = prompt("¿como estaba el usuario? \n 1: Bien \n 2: mal")
+let estado = prompt("¿Cómo se encontraba el usuario? \n 1: Bien \n 2: mal")
   
 
 switch(estado){
@@ -553,7 +553,7 @@ function ejercicios(){
     
     switch(practicas){
         case "1":
-            let cual = prompt("¿Cuales? \n 1: movilidad articular \n 2: ejercicios en miembros superiores \n 3: ejercicios en miembros inferiores \n 4:movilidad articular en miembros superiores \n 5:movilidad articular en miembros inferiores \n 6: movilidad articular en miembros superiores e inferiores")
+            let cual = prompt("¿Cuales? \n 1: Ejercicios de movilidad articular \n 2: Ejercicios en miembros superiores \n 3: Ejercicios en miembros inferiores \n 4: Ejercicios de movilidad articular en miembros superiores \n 5: Ejercicios de movilidad articular en miembros inferiores \n 6: Ejercicios de movilidad articular en miembros superiores e inferiores")
     
             switch(cual){
                 case "1":
