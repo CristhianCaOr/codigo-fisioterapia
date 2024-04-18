@@ -64,7 +64,7 @@ function condicionesusuario(){
 
         case "2":
                
-            why = prompt("¿Por que?")    
+            why = prompt("¿Por que? sugerencia: empeza con un ''quien refiere que... '' 1")    
             document.write(why)
             
         break;
