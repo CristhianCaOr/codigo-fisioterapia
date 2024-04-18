@@ -524,9 +524,6 @@ function enfoquellamada(){
 
 
 switch(razon){
-    // case"0":
-    //     ocument.write(" ")
-    // break;
 
     case"1":
         document.write(". La llamada se enfoca en brindar indicaciones frente a las dinámicas del proyecto, sobre la continuidad de las atenciones y la importancia de cumplir con los compromisos propuestos")
@@ -545,6 +542,48 @@ switch(razon){
     break;
     }
 }     
+
+
+function enfoquellamada2(){
+    
+    let razon = prompt("motivo de la atencion: \n 1: indicaciones de las dinamicas del proyecto \n 2: continuacion de atenciones \n 3: condiciones de salud del usuario \n 4: Revision de ejercicios dejados con anterioridad")
+
+
+switch(razon){
+
+    case"1":
+        document.write(". Tambien se enfoca la llamada  se enfoca en brindar indicaciones frente a las dinámicas del proyecto, sobre la continuidad de las atenciones y la importancia de cumplir con los compromisos propuestos")
+    break;
+
+    case"2":
+        document.write(". Tambien se enfoca la llamada se enfoca en informar sobre la continuidad de las atenciones") 
+    break;
+
+    case"3":
+        document.write(". Tambien se enfoca se enfoca la atención en la revisión de las condiciones de salud del usuario y como está siendo su cuidado")
+    break;
+
+    case"4":
+        document.write(". Tambien se enfoca se enfoca la llamada en la indagación de los ejercicios dejados con anterioridad. Se le recuerda la importancia de ejecutarlos con frecuencia y la importancia de los mismos para evitar lesiones y dolores articulares")
+    break;
+    }
+}
+
+
+function otroEnfoque(){
+    let pregunta = prompt("¿Hay otro motivo en la llamada? \n 1: si \n 2:no ")
+
+    switch(pregunta){
+        case "1":
+            enfoquellamada2()
+        break;
+
+        case "2":
+        document.write(" ")
+        break;
+    }
+
+}
 
 
 function ejercicios(){
@@ -660,7 +699,8 @@ function fecha(){
 
     }
 
-function cierrevirtual(){
+
+    function cierrevirtual(){
         document.write(". Se lleva a cabo la atención virtual de activación bajo consentimiento de quien la recibe dado que el servicio de transporte para facilitar las atenciones presenciales inician en los primeros días de junio por lo anterior se deja constancia de estas sin firma del usuario y/o persona cuidando. ")
 }
 
@@ -670,13 +710,11 @@ function cierrevirtual(){
 // Codigo a ejecitar
     atenciontelefonica()
     estadousuario()
-    // agregar()
     enfoquellamada()
-    // agregar()
+    otroEnfoque()
     ejercicios()
     tecnicas()
     indicaciones()
-    // agregar()
     fecha()
     cierrevirtual()
     
@@ -684,8 +722,7 @@ function cierrevirtual(){
 
 
 function tipodevisita(){
-    let  respuesta = null
-    respuesta = prompt("¿de que forma fue la visita? \n 1: presencial \n 2: virtual")
+    let  respuesta = prompt("¿de que forma fue la visita? \n 1: presencial \n 2: virtual")
     
     switch(respuesta){
         case "1":
