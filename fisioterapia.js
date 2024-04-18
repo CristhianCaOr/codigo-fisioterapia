@@ -64,7 +64,7 @@ function condicionesusuario(){
 
         case "2":
                
-            why = prompt("¿Por que? sugerencia: empeza con un ''quien refiere que... '' 1")    
+            why = prompt("¿Por que? sugerencia: empeza con un ''quien refiere que... '' ")    
             document.write(why)
             
         break;
@@ -642,19 +642,19 @@ function ejercicios(){
             switch(tipodetecnica){
                 
                 case "1":
-                    document.write(" Cuidador indica que se han aplicado las tecnicas con enfoque en movilidad articular ")
+                    document.write(" Cuidador indica que se han aplicado las técnicas con enfoque en movilidad articular ")
                 break;
         
                 case "2":
-                    document.write(" Cuidador indica que se han aplicado las tecnicas con enfoque en cambios de posición ")
+                    document.write(" Cuidador indica que se han aplicado las técnicas con enfoque en cambios de posición ")
                 break;
         
                 case "3":
-                    document.write(" Cuidador indica que se han aplicado tecnicas con enfoque en movilidad articular y cambios de posición ")
+                    document.write(" Cuidador indica que se han aplicado técnicas con enfoque en movilidad articular y cambios de posición ")
                 break;
         
                 case "4":
-                document.write(" Cuidador indica que han aplicado tecnicas y ejercicios para reducir espasticidad")
+                document.write(" Cuidador indica que han aplicado técnicas y ejercicios para reducir espasticidad")
                 break;
             
             }
@@ -663,7 +663,7 @@ function ejercicios(){
         
         
             case "2":
-                document.write(" Cuidador indica que el usuario no ha practicado tecnicas de ningún tipo")
+                document.write(" Cuidador indica que el usuario no ha practicado técnicas de ningún tipo")
             break;
         
         }
