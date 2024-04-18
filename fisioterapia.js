@@ -145,7 +145,7 @@ let  extencion = prompt("extencion de que \n 1: rodillas \n 2: caderas \n 3: rod
     
 function enfoquevisita1(){
 
-    let razon = prompt("motivo de la atencion: \n 1: Revision de ejercicios dejados con anterioridad \n 2: movilidad articular \n 3: fortalecimiento de miembros \n 4: desplazamientos \n 5: felxo - extencion \n 6: abduccion y aduccion \n 7: rotaciones \n 8: técnicas de marcha \n 9: equilibrio y propiocepción \n 10: CORE \n 11: Control cabeza y cuello \n 12: tecnicas de masaje \n 13: posicion de tendon \n 14: asesoria para manejo de dolor")
+    let razon = prompt("¿Cuál fue el motivo de la visita?: \n 1: Revision de ejercicios dejados con anterioridad \n 2: movilidad articular \n 3: fortalecimiento de miembros \n 4: desplazamientos \n 5: felxo - extencion \n 6: abduccion y aduccion \n 7: rotaciones \n 8: técnicas de marcha \n 9: equilibrio y propiocepción \n 10: CORE \n 11: Control cabeza y cuello \n 12: tecnicas de masaje \n 13: posicion de tendon \n 14: asesoria para manejo de dolor")
     
     
 switch(razon){
@@ -214,10 +214,14 @@ switch(razon){
 
 function enfoquevisita2(){
 
-    let razon = prompt("motivo de la atencion: \n 1: Revision de ejercicios dejados con anterioridad \n 2: movilidad articular \n 3: fortalecimiento de miembros \n 4: desplazamientos \n 5: felxo - extencion \n 6: abduccion y aduccion \n 7: rotaciones \n 8: técnicas de marcha \n 9: equilibrio y propiocepción \n 10: CORE \n 11: Control cabeza y cuello \n 12: tecnicas de masaje \n 13: posicion de tendon \n 14: asesoria para manejo de dolor")
+    let razon = prompt("motivo de la visita #2: \n 0: Ya no hay mas motivos \n 1: Revision de ejercicios dejados con anterioridad \n 2: movilidad articular \n 3: fortalecimiento de miembros \n 4: desplazamientos \n 5: felxo - extencion \n 6: abduccion y aduccion \n 7: rotaciones \n 8: técnicas de marcha \n 9: equilibrio y propiocepción \n 10: CORE \n 11: Control cabeza y cuello \n 12: tecnicas de masaje \n 13: posicion de tendon \n 14: asesoria para manejo de dolor")
     
     
 switch(razon){
+
+    case"0":
+        document.write(" ")
+    break;
 
     case "1":
         document.write("tambien enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlas con frecuencia y la importancia de los mismos. ")
@@ -283,10 +287,14 @@ switch(razon){
 
 function enfoquevisita3(){
 
-    let razon = prompt("motivo de la atencion: \n 1: Revision de ejercicios dejados con anterioridad \n 2: movilidad articular \n 3: fortalecimiento de miembros \n 4: desplazamientos \n 5: felxo - extencion \n 6: abduccion y aduccion \n 7: rotaciones \n 8: técnicas de marcha \n 9: equilibrio y propiocepción \n 10: CORE \n 11: Control cabeza y cuello \n 12: tecnicas de masaje \n 13: posicion de tendon \n 14: asesoria para manejo de dolor")
+    let razon = prompt("motivo de la visita #3: \n 0: Ya no hay mas motivos \n 1: Revision de ejercicios dejados con anterioridad \n 2: movilidad articular \n 3: fortalecimiento de miembros \n 4: desplazamientos \n 5: felxo - extencion \n 6: abduccion y aduccion \n 7: rotaciones \n 8: técnicas de marcha \n 9: equilibrio y propiocepción \n 10: CORE \n 11: Control cabeza y cuello \n 12: tecnicas de masaje \n 13: posicion de tendon \n 14: asesoria para manejo de dolor")
     
     
 switch(razon){
+
+    case"0":
+        document.write(" ")
+    break;
 
     case "1":
         document.write("tambien enfoca la atención en revisión de ejercicios dejados con anterioridad, se le recuerda la importancia de ejecutarlas con frecuencia y la importancia de los mismos. ")
