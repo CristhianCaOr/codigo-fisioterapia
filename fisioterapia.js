@@ -591,14 +591,14 @@ function ejercicios(){
 
     function tecnicas(){
 
-        let tecnics = prompt("¿El usuario practico tecnicas? \n 1: si  \n 2: no ")
+        let tecnics = prompt("¿El usuario ha practicado tecnicas para mejorar su condicion? \n 1: si  \n 2: no ")
         
         
         
         switch(tecnics){
             case "1":
                 
-                let tipodetecnica = prompt("¿Que tecnicas ha practicado el usuario? \n 1: movilidad articular \n 2: tecnicas de cambios de posición \n 3: ambas \n 4: reducir espasticidad" )
+                let tipodetecnica = prompt("¿Cuáles tecnicas ha practicado el usuario? \n 1: movilidad articular \n 2: tecnicas de cambios de posición \n 3: ambas \n 4: reducir espasticidad" )
         
             switch(tipodetecnica){
                 
@@ -634,12 +634,12 @@ function ejercicios(){
 
 function indicaciones() {
     
-    let indications = prompt("¿Dejaste indicaciones? \n 1: si  \n 2: no ")
+    let indications = prompt("¿Dejaste indicaciones en el cuaderno planeador? \n 1: si  \n 2: no ")
         
 switch(indications){
     
     case "1":
-        document.write(". Se dejan las indicaciones y se recuerdan los compromisos y dinámicas del programa, se deja el usuario en estables condiciones y se informa la fecha de la próxima atención ")
+        document.write(". Se dejan las indicaciones en el cuaderno planeador y se recuerdan los compromisos y dinámicas del programa. Se deja el usuario en estables condiciones y se informa la fecha de la próxima atención ")
     break;
 
     case "2":
