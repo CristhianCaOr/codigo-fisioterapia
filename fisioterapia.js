@@ -158,7 +158,7 @@ switch(razon){
     break;
 
     case "9":
-        document.write("la atención se enfoca en técnicas de equilibrio,y propiocepcion, ")
+        document.write("la atención se enfoca en técnicas de equilibrio y propiocepcion, ")
         agregar()
     break;
 
@@ -399,7 +399,7 @@ eleccion = prompt("¿Qué tipo de atencion fue? \n 1: para virtual")
         
     switch(eleccion){
         case "1":
-            document.write("<br>se realiza seguimiento telefónico con el objetivo de hacer seguimiento desde el área y reencuadre frente al inicio de las atenciones, se establece comunicación con acudiente del usuario, ")
+            document.write("<br><br>se realiza seguimiento telefónico con el objetivo de hacer seguimiento desde el área y reencuadre frente al inicio de las atenciones, se establece comunicación con acudiente del usuario, ")
         break;
     }
 } 
@@ -539,7 +539,7 @@ function cierrevirtual(){
 function ejercicios(){
 let practicas = null
 let cual = null
-practicas = prompt("¿Le han dejado ejercicicos al usuario? \n 1: si \n 2: no")
+practicas = prompt("¿Le han dejado ejercicios al usuario? \n 1: si \n 2: no")
 
 switch(practicas){
     case "1":
