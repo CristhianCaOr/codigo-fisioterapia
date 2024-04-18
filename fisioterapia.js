@@ -546,25 +546,25 @@ switch(razon){
 
 function enfoquellamada2(){
     
-    let razon = prompt("motivo de la atencion: \n 1: indicaciones de las dinamicas del proyecto \n 2: continuacion de atenciones \n 3: condiciones de salud del usuario \n 4: Revision de ejercicios dejados con anterioridad")
+    let razon = prompt("Cuál es el otro motivo de la atencion \n 1: indicaciones de las dinamicas del proyecto \n 2: continuacion de atenciones \n 3: condiciones de salud del usuario \n 4: Revision de ejercicios dejados con anterioridad")
 
 
 switch(razon){
 
     case"1":
-        document.write(". Tambien se enfoca la llamada  se enfoca en brindar indicaciones frente a las dinámicas del proyecto, sobre la continuidad de las atenciones y la importancia de cumplir con los compromisos propuestos")
+        document.write(". Tambien se enfoca la llamada en brindar indicaciones frente a las dinámicas del proyecto, sobre la continuidad de las atenciones y la importancia de cumplir con los compromisos propuestos")
     break;
 
     case"2":
-        document.write(". Tambien se enfoca la llamada se enfoca en informar sobre la continuidad de las atenciones") 
+        document.write(". Tambien se enfoca la llamada  en informar sobre la continuidad de las atenciones") 
     break;
 
     case"3":
-        document.write(". Tambien se enfoca se enfoca la atención en la revisión de las condiciones de salud del usuario y como está siendo su cuidado")
+        document.write(". Tambien se enfoca la atención en la revisión de las condiciones de salud del usuario y como está siendo su cuidado")
     break;
 
     case"4":
-        document.write(". Tambien se enfoca se enfoca la llamada en la indagación de los ejercicios dejados con anterioridad. Se le recuerda la importancia de ejecutarlos con frecuencia y la importancia de los mismos para evitar lesiones y dolores articulares")
+        document.write(". Tambien se enfoca la llamada en la indagación de los ejercicios dejados con anterioridad. Se le recuerda la importancia de ejecutarlos con frecuencia y la importancia de los mismos para evitar lesiones y dolores articulares")
     break;
     }
 }
@@ -711,6 +711,7 @@ function fecha(){
     atenciontelefonica()
     estadousuario()
     enfoquellamada()
+    otroEnfoque()
     otroEnfoque()
     ejercicios()
     tecnicas()
