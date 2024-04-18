@@ -41,7 +41,7 @@
 
                 case "2":
                     
-                    let why = prompt("¿Por que? sugerencia: empeza con un ''quien refiere que... '' ")    
+                    let why = prompt("¿Por que? sugerencia: empeza con un ''quien refiere que el usuario... '' ")    
                     document.write(why)
                     
                 break;
@@ -390,6 +390,7 @@
                     document.write(" se deja a usuario en estables condiciones de salud general.")
             }
     
+            break;
             // Caso 2, visita virtual
 
             case "2":
@@ -427,7 +428,9 @@
                     
                     case "3":
                         
-                        agregar()
+                    let pq = prompt("Escribe la razon. SUGERENCIA: empieza con un ''quien refiere que el usuario... '' ")    
+                    
+                    document.write(pq)
                     
                     break;
 
@@ -556,7 +559,7 @@
                     break;
                 
                     case"3":
-                        document.write(". Se enfoca la atención en la revisión de las condiciones de salud del usuario y como está siendo su cuidado")
+                        document.write(". Se enfoca la llamada en la revisión de las condiciones de salud del usuario y como está siendo su cuidado")
                     break;
                 
                     case"4":
@@ -582,7 +585,7 @@
                         break;
                     
                         case"3":
-                            document.write(". Tambien se enfoca la atención en la revisión de las condiciones de salud del usuario y como está siendo su cuidado")
+                            document.write(". Tambien se enfoca la llamada en la revisión de las condiciones de salud del usuario y como está siendo su cuidado")
                         break;
                     
                         case"4":
