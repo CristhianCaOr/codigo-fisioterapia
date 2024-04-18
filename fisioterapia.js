@@ -604,7 +604,7 @@ function ejercicios(){
                 break;
     
                 case "3":
-                    ducument.write(". Se dejan ejercicios para miembros inferiores. ")
+                    document.write(". Se dejan ejercicios para miembros inferiores. ")
                 break;
     
                 case "4":
@@ -642,15 +642,15 @@ function ejercicios(){
             switch(tipodetecnica){
                 
                 case "1":
-                    document.write(" Cuidador indica que se han aplicado las tecnicas con enfoque en movilidad articular, ")
+                    document.write(" Cuidador indica que se han aplicado las tecnicas con enfoque en movilidad articular ")
                 break;
         
                 case "2":
-                    document.write(" Cuidador indica que se han aplicado las tecnicas con enfoque en cambios de posición, ")
+                    document.write(" Cuidador indica que se han aplicado las tecnicas con enfoque en cambios de posición ")
                 break;
         
                 case "3":
-                    document.write(" Cuidador indica que se han aplicado tecnicas con enfoque en movilidad articular y cambios de posición, ")
+                    document.write(" Cuidador indica que se han aplicado tecnicas con enfoque en movilidad articular y cambios de posición ")
                 break;
         
                 case "4":
